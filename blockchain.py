@@ -15,9 +15,13 @@ class Blockchain:
     def __repr__(self):
         return f'Blockchain: {self.chain}'
 
-blockchain = Blockchain()
-blockchain.add_block('one')
-blockchain.add_block('two')
+def main():
+    blockchain = Blockchain()
+    blockchain.add_block('one')
+    blockchain.add_block('two')
 
-print(blockchain)
-print(f'blockchain.py __name__: {__name__}')
+    print(blockchain)
+    print(f'blockchain.py __name__: {__name__}')
+
+if __name__ == '__main__':
+    main()
