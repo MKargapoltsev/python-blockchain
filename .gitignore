@@ -1407,3 +1407,9 @@ blockchain-env/lib/python3.12/site-packages/wcwidth-0.2.13.dist-info/RECORD
 blockchain-env/lib/python3.12/site-packages/wcwidth-0.2.13.dist-info/top_level.txt
 blockchain-env/lib/python3.12/site-packages/wcwidth-0.2.13.dist-info/WHEEL
 blockchain-env/lib/python3.12/site-packages/wcwidth-0.2.13.dist-info/zip-safe
+backend/__pycache__/__init__.cpython-312.pyc
+backend/util/__pycache__/__init__.cpython-312.pyc
+backend/util/__pycache__/crypto_hash.cpython-312.pyc
+backend/blockchain/__pycache__/__init__.cpython-312.pyc
+backend/blockchain/__pycache__/block.cpython-312.pyc
+backend/blockchain/__pycache__/blockchain.cpython-312.pyc
