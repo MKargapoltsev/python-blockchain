@@ -1495,3 +1495,4 @@ blockchain-env/lib/python3.12/site-packages/pytest-8.2.1.dist-info/REQUESTED
 blockchain-env/lib/python3.12/site-packages/pytest-8.2.1.dist-info/top_level.txt
 blockchain-env/lib/python3.12/site-packages/pytest-8.2.1.dist-info/WHEEL
 backend/tests/blockchain/__pycache__/test_block.cpython-312-pytest-8.2.1.pyc
+backend/tests/blockchain/__pycache__/test_blockchain.cpython-312-pytest-8.2.1.pyc
