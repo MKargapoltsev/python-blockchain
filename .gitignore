@@ -1500,3 +1500,4 @@ backend/__pycache__/config.cpython-312.pyc
 backend/scripts/__pycache__/average_block_rate.cpython-312.pyc
 backend/util/__pycache__/hex_to_binary.cpython-312.pyc
 backend/tests/util/__pycache__/test_hex_to_binary.cpython-312-pytest-8.2.1.pyc
+__pycache__/crypto_hash.cpython-312.pyc
