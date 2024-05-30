@@ -47,8 +47,10 @@ class PubSub():
         """
         Publish the message object to the channel.
         """
+        self.pubnub.unsubscribe().channels([channel]).execute() #solution to avoid redundant Pub/Sub Interactions 
         self.pubnub.publish().channel(channel).message(message).sync()
-    
+        self.pubnub.subscribe().channels([channel]).execute()   
+
     def broadcast_block(self, block):
         """
         Broadcast a block object to all nodes.
