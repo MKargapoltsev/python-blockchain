@@ -14,7 +14,6 @@ CHANNELS = {
     'TEST': 'TEST',
     'BLOCK': 'BLOCK'
 }
-
 class Listener(SubscribeCallback):
     def __init__(self, blockchain):
         self.blockchain = blockchain
