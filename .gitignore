@@ -3549,3 +3549,4 @@ blockchain-env/lib/python3.12/site-packages/pycparser-2.22.dist-info/WHEEL
 backend/wallet/__pycache__/__init__.cpython-312.pyc
 backend/wallet/__pycache__/wallet.cpython-312.pyc
 backend/tests/wallet/__pycache__/test_wallet.cpython-312-pytest-8.2.1.pyc
+backend/wallet/__pycache__/transaction.cpython-312.pyc
