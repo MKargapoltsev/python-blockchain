@@ -55,7 +55,7 @@ class PubSub():
         Broadcast a block object to all nodes.
         """
         self.publish(CHANNELS['BLOCK'], block.to_json())
-
+    
 def main():
     pubsub = PubSub()
 
