@@ -3553,3 +3553,5 @@ backend/wallet/__pycache__/transaction.cpython-312.pyc
 backend/tests/wallet/__pycache__/test_transaction.cpython-312-pytest-8.2.1.pyc
 .DS_Store
 .DS_Store
+backend/tests/wallet/__pycache__/test_transaction_pool.cpython-312-pytest-8.2.1.pyc
+backend/wallet/__pycache__/transaction_pool.cpython-312.pyc
