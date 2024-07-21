@@ -89,6 +89,11 @@ class Transaction:
         Validate a transaction.
         Raise an exception for invaled transaction.
         """
+        if transaction.input == MINING_REWARD_INPUT:
+            if list(transaction.output.values()) != [MINING_REWARD]:
+                raise Exception('Invalid mining reward')
+            return
+        
         output_total = sum(transaction.output.values())
 
         if transaction.input['amount'] != output_total:
