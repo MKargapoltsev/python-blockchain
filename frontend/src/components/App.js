@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from '../assets/logo.png';
 import { API_BASE_URL } from '../config';
 import Blockchain from "./Blockchain";
+import ConductTransaction from "./ConductTransactions";
 
 function App() {
   const [walletInfo, setWalletInfo] = useState({});
@@ -25,6 +26,8 @@ function App() {
       </div>
       <br />
       <Blockchain />
+      <br />
+      <ConductTransaction />
     </div>
   );
 }
